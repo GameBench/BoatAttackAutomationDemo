@@ -99,11 +99,7 @@ namespace BoatAttack
 
         private void FixedUpdate()
         {
-            Vector3 targetDir = (new Vector3(-107, 0, 40) - transform.position);
-            Vector3 forward = transform.forward;
-            float angle = Vector3.SignedAngle(targetDir, forward, Vector3.up);
-            //gameObject.transform.LookAt(new Vector3(-107,0,40));
-            Debug.Log(angle.ToString());
+            
             if (!RaceManager.RaceStarted)
             {
                 // race not started, make sure to keep boat fairly aligned.
