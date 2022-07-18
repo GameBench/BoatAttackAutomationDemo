@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<config version="0.2">
+  <objectresolvers>
+    <resolver class="gdio.unity_agent.HierarchyPathObjectResolver" priority="0" />
+  </objectresolvers>
+  <mouseclickhighlight radius="3" frames="15" style="circle" color="1.0,0.0,0.0"/>
+  <ongui_events enabled="true" show_mouse="true"/>
+  <hierarchypath primaryattribute="tag" />
+  <!-- x="10.0%" would place the X coordinate at 10% of the Screen.width in Unity -->
+  <infobox enabled="true" x="10.0" y ="10.0" />
+  <!-- When doing WaitForObjectValue, if comparing strings and the string ends with a U+200B, the unicode point will be ignored in the comparison.  Useful on TMP Input TextField -->
+  <unicode><ignoreZeroWidthSpace enabled="true"/></unicode>
+  <config><logging><trace enabled="true" /></logging></config>
+</config>
