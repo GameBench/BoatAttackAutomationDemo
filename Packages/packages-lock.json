@@ -205,10 +205,11 @@
       }
     },
     "io.backtrace.unity": {
-      "version": "file:C:/Users/Hunter Golden/Downloads/backtrace-unity-3.7.7-preview.1/backtrace-unity-3.7.7-preview.1",
+      "version": "3.7.7-preview.1",
       "depth": 0,
-      "source": "local",
-      "dependencies": {}
+      "source": "registry",
+      "dependencies": {},
+      "url": "https://package.openupm.com"
     },
     "net.peeweek.gameplay-ingredients": {
       "version": "https://github.com/peeweek/net.peeweek.gameplay-ingredients.git",

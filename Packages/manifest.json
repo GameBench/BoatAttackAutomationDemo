@@ -15,7 +15,7 @@
     "com.unity.textmeshpro": "3.0.6",
     "com.unity.timeline": "1.4.8",
     "com.unity.ugui": "1.0.0",
-    "io.backtrace.unity": "file:C:/Users/Hunter Golden/Downloads/backtrace-unity-3.7.7-preview.1/backtrace-unity-3.7.7-preview.1",
+    "io.backtrace.unity": "3.7.7-preview.1",
     "net.peeweek.gameplay-ingredients": "https://github.com/peeweek/net.peeweek.gameplay-ingredients.git",
     "com.unity.modules.ai": "1.0.0",
     "com.unity.modules.androidjni": "1.0.0",
@@ -46,5 +46,15 @@
     "com.unity.modules.vr": "1.0.0",
     "com.unity.modules.wind": "1.0.0",
     "com.unity.modules.xr": "1.0.0"
-  }
+  },
+  "scopedRegistries": [
+    {
+      "name": "package.openupm.com",
+      "url": "https://package.openupm.com",
+      "scopes": [
+        "com.openupm",
+        "io.backtrace.unity"
+      ]
+    }
+  ]
 }
