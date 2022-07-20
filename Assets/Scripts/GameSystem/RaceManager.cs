@@ -10,6 +10,8 @@ using BoatAttack.UI;
 using UnityEngine.Playables;
 using UnityEngine.Rendering.Universal;
 using Random = UnityEngine.Random;
+using Backtrace.Unity;
+
 
 namespace BoatAttack
 {
@@ -192,6 +194,25 @@ namespace BoatAttack
         /// <returns></returns>
         private static IEnumerator BeginRace()
         {
+
+            try
+            {
+                throw new System.NullReferenceException("Parameter cannot be null");
+            }
+            catch (System.NullReferenceException nre)
+            {
+                GameObject.Find("Backtrace").GetComponent<BacktraceClient>().Send(nre);
+            }
+
+            try
+            {
+                throw new System.NullReferenceException("Parameter cannot be null");
+            }
+            catch (System.NullReferenceException nre)
+            {
+                GameObject.Find("Backtrace").GetComponent<BacktraceClient>().Send(nre);
+            }
+
             var introCams = GameObject.FindWithTag("introCameras");
             introCams.TryGetComponent<PlayableDirector>(out var introDirector);
 

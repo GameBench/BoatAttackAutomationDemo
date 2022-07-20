@@ -18,36 +18,35 @@ public class GDIOStub : MonoBehaviour
 	public void GDIOStubCall()
 	{
 
-		Type t = typeof(System.Action<UnityEngine.InputSystem.InputDevice, UnityEngine.InputSystem.LowLevel.KeyboardState, double>);
-		Type t2 = typeof(System.Action<UnityEngine.InputSystem.InputDevice, UnityEngine.InputSystem.LowLevel.MouseState, double>);
+	        Type t = typeof(System.Action<UnityEngine.InputSystem.InputDevice, UnityEngine.InputSystem.LowLevel.KeyboardState, double>);
+        	Type t2 = typeof(System.Action<UnityEngine.InputSystem.InputDevice, UnityEngine.InputSystem.LowLevel.MouseState, double>);
 		Type t3 = typeof(InternedString);
 		Type t4 = typeof(UnityEngine.InputSystem.InputSystem);
-		Type t5 = typeof(UnityEngine.InputSystem.InputDevice);
+	        Type t5 = typeof(UnityEngine.InputSystem.InputDevice);
 
-		Type t8 = typeof(System.Action<System.Object, UnityEngine.InputSystem.LowLevel.KeyboardState, double>);
-		Type t9 = typeof(System.Action<System.Object, UnityEngine.InputSystem.LowLevel.MouseState, double>);
+	        Type t8 = typeof(System.Action<System.Object, UnityEngine.InputSystem.LowLevel.KeyboardState, double>);
+        	Type t9 = typeof(System.Action<System.Object, UnityEngine.InputSystem.LowLevel.MouseState, double>);
 
-		object a = System.Runtime.Serialization.FormatterServices.GetUninitializedObject(t8);
-		object b = System.Runtime.Serialization.FormatterServices.GetUninitializedObject(t9);
+	        object a = System.Runtime.Serialization.FormatterServices.GetUninitializedObject(t8);
+        	object b = System.Runtime.Serialization.FormatterServices.GetUninitializedObject(t9);
 
-		UnityEngine.InputSystem.InputSystem.QueueStateEvent<UnityEngine.InputSystem.LowLevel.KeyboardState>((InputDevice)null, (KeyboardState)new KeyboardState(), -1d);
+	        UnityEngine.InputSystem.InputSystem.QueueStateEvent<UnityEngine.InputSystem.LowLevel.KeyboardState>((InputDevice)null, (KeyboardState)new KeyboardState(), -1d);
 		UnityEngine.InputSystem.InputSystem.QueueStateEvent<UnityEngine.InputSystem.LowLevel.MouseState>((InputDevice)null, (MouseState)new MouseState(), -1d);
 		UnityEngine.InputSystem.InputSystem.QueueStateEvent((InputDevice)null, (KeyboardState)new KeyboardState(), -1d);
 		UnityEngine.InputSystem.InputSystem.QueueStateEvent((InputDevice)null, (MouseState)new MouseState(), -1d);
 		UnityEngine.InputSystem.InputSystem.QueueStateEvent<UnityEngine.InputSystem.LowLevel.MouseState>((InputDevice)null, (MouseState)new MouseState(), -1d);
 		UnityEngine.InputSystem.InputSystem.RegisterLayout("","",null);
 		UnityEngine.InputSystem.InputSystem.AddDevice("","", null);
-		UnityEngine.InputSystem.InputSystem.AddDevice<InputDevice>();
-		UnityEngine.InputSystem.InputSystem.AddDevice((InputDevice)null);
+        	UnityEngine.InputSystem.InputSystem.AddDevice<InputDevice>();
+	        UnityEngine.InputSystem.InputSystem.AddDevice((InputDevice)null);
 		UnityEngine.InputSystem.InputSystem.AddDevice(new UnityEngine.InputSystem.Layouts.InputDeviceDescription());
 		UnityEngine.InputSystem.InputSystem.AddDevice(string.Empty);
-		UnityEngine.InputSystem.InputSystem.AddDeviceUsage(null, "");
+        	UnityEngine.InputSystem.InputSystem.AddDeviceUsage(null, "");
 		UnityEngine.InputSystem.InputSystem.RemoveLayout("");
 		UnityEngine.InputSystem.InputSystem.GetDevice<InputDevice>("");
 		UnityEngine.InputSystem.InputSystem.GetDevice(string.Empty);
 		UnityEngine.InputSystem.InputSystem.GetDevice(typeof(InputDevice));
 
-		(new GameObject()).transform.LookAt(new Vector3(0,0,0));
 	}
 }
 #endif

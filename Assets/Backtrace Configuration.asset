@@ -28,21 +28,21 @@ MonoBehaviour:
   CaptureNativeCrashes: 1
   HandleANR: 1
   AnrWatchdogTimeout: 5000
-  OomReports: 0
+  OomReports: 1
   ClientSideUnwinding: 0
-  SymbolsUploadToken: 
+  SymbolsUploadToken: 19e25e4bc97bb288021d7d1913ba7b2d714b0d642084abf743315aeb79dcbfb6
   DeduplicationStrategy: 0
-  EnableBreadcrumbsSupport: 0
+  EnableBreadcrumbsSupport: 1
   BacktraceBreadcrumbsLevel: 127
   LogLevel: 31
   UseNormalizedExceptionMessage: 0
   MinidumpType: 524286
-  GenerateScreenshotOnException: 0
+  GenerateScreenshotOnException: 1
   AttachmentPaths: []
   DatabasePath: ${Application.persistentDataPath}/backtrace
   EnableMetricsSupport: 1
   TimeIntervalInMin: 30
-  Enabled: 0
+  Enabled: 1
   AddUnityLogToReport: 0
   AutoSendMode: 1
   CreateDatabase: 1

@@ -10,5 +10,4 @@
   <infobox enabled="true" x="10.0" y ="10.0" />
   <!-- When doing WaitForObjectValue, if comparing strings and the string ends with a U+200B, the unicode point will be ignored in the comparison.  Useful on TMP Input TextField -->
   <unicode><ignoreZeroWidthSpace enabled="true"/></unicode>
-  <config><logging><trace enabled="true" /></logging></config>
 </config>

@@ -5,6 +5,6 @@
 		<type fullname="*" preserve="all"/> 		 		 		
 	</assembly>
 	<assembly fullname="UnityEngine.CoreModule">
-		<type fullname="UnityEngine.Transform" preserve="all" />
-	</assembly>	
+  <type fullname="UnityEngine.Transform" preserve="all" />
+</assembly>
 </linker>
