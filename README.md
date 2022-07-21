@@ -1,6 +1,9 @@
 # This repository is now a fork, the original has been moved to https://github.com/Unity-Technologies/BoatAttack  
 **_Note:This repository uses GitLFS, to use this repo you need to pull via Git and make sure GitLFS is installed locally_**
 
+# GameBench + GameDriver Automation Demo
+This project includes the GameDriver SDK for demonstration purposes. For a trial license and documentation, please visit [GameDriver.io](https://GameDriver.io). For the demonstration test used for this application, see the [GameDriver Github](https://github.com/GameDriver-io/BoatAttack_Demo) repo.
+
 # Boat Attack
 ###### Demo Project using the Universal RP from Unity3D
 
